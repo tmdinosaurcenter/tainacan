@@ -201,9 +201,6 @@
                        this.itemMetadatum.metadatum &&
                        this.itemMetadatum.metadatum.metadata_type_options &&
                        this.itemMetadatum.metadatum.metadata_type_options.accept_draft_items === 'yes';
-            },
-            isMobileMode() {
-                return this.$route && this.$route.query && this.$route.query.mobilemode;
             }
         },
         watch: {
